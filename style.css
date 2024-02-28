@@ -1,0 +1,58 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif; /* Set font family */
+    text-align: center; /* Center-align text */
+    background-color: rgb(250, 204, 0); /* Set background color */
+  }
+  
+  /* Container styles */
+  .container {
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Arrange items vertically */
+  }
+  
+  /* Color picker styles */
+  .color-picker {
+    width: 300px; /* Set width */
+    margin: 10px auto; /* Center horizontally */
+  }
+  
+  .color-picker label {
+    font-size: 3vh; /* Set font size */
+    font-weight: bold; /* Set font weight */
+  }
+  
+  .color-picker input {
+    width: 100px; /* Set width */
+    height: 50px; /* Set height */
+    border: 2px solid; /* Set border */
+    border-radius: 10px; /* Apply border-radius for rounded corners */
+    cursor: pointer; /* Change cursor to pointer */
+  }
+  
+  /* Buttons styles */
+  .buttons {
+    width: 200px; /* Set width */
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Arrange items vertically */
+    margin: 10px auto; /* Center horizontally */
+  }
+  
+  #randomColorButton,
+  #colorButton {
+    margin-top: 10px; /* Add margin at the top */
+    padding: 10px 20px; /* Set padding */
+    font-size: 16px; /* Set font size */
+    border: 2px solid; /* Set border */
+    border-radius: 10px; /* Apply border-radius for rounded corners */
+    cursor: pointer; /* Change cursor to pointer */
+    font-size: 18px; /* Set font size */
+    font-weight: bold; /* Set font weight */
+    background-color: #fff; /* Set background color */
+  }
+  
+  /* Color display styles */
+  #colorDisplay {
+    margin-top: 20px; /* Add margin at the top */
+    font-size: 18px; /* Set font size */
+  }  
